@@ -1,20 +1,17 @@
 import './style.css';
-// import _ from 'lodash';  LIBRARY IMPORTS HERE
-import printMe from './print.js';
-
+import _ from 'date-fns'
+import generateTitle from './title';
 
 function component() {
   const element = document.createElement('div');
-  const btn = document.createElement('button');
+  
 
-  // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = "Hello World"
-  element.classList.add('hello');
+  element.classList.add('title');
+  element.appendChild(generateTitle())
+  // btn.innerHTML = 'Click me and check the console!';
+  // btn.onclick = printMe;
 
-  btn.innerHTML = 'Click me and check the console!';
-  btn.onclick = printMe;
-
-  element.appendChild(btn);
+  // element.appendChild(btn);
 
   // Add the image to our existing div.
   // const myChrist = new Image();
