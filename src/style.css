@@ -1,19 +1,37 @@
 /* FONTS SECTION */
-/* @font-face {
-  font-family: 'MyFont';
-  src: url('./my-font.woff2') format('woff2'),
-    url('./my-font.woff') format('woff');
+ @font-face {
+  font-family: 'PatuaOne';
+  src: url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
   font-weight: 600;
   font-style: normal;
-} */
+}
+
+.title{
+  border: 10px solid red;
+  background-color: maroon;
+  padding: 2px;
+
+}
 
 
+.title_header{
+  border: 8px solid blue;
+  background-color: aqua;
+  margin: 2px;
+  padding: 2px;
+  font-family: 'PatuaOne'
+}
 
+.title_subheader{
+  border: 6px solid darkgreen;
+  background-color: rgb(144, 241, 144);
+  margin:2px;
+  padding:2px;
+}
 
-
-.hello {
-  color: red;
-  /* font-family: 'MyFont'; */
-  /* background: url('./images/BC.jpg');
-  background-repeat: no-repeat; */
+.title_footer{
+  border: 8px solid blue;
+  background-color: aqua;
+  margin: 2px;
+  padding: 2px;
 }
