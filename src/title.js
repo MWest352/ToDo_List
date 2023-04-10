@@ -19,8 +19,8 @@ function titleHeader() {
 function titleSubheader() {
   const titleSubHeader = document.createElement('div');
  
-  titleSubHeader.classList.add('title_header');
-  titleSubHeader.innerHTML = "Welcome to Checkmark! Your new personal assistant!";
+  titleSubHeader.classList.add('title_subheader');
+  titleSubHeader.innerHTML = "Welcome to Checkmark, your new personal assistant!";
 
   return titleSubHeader;
 }
@@ -37,7 +37,7 @@ function runButton() {
 function titleFooter() {
   const titleFooter = document.createElement('div');
  
-  titleFooter.classList.add('title_header');
+  titleFooter.classList.add('title_footer');
   titleFooter.innerHTML = "Footer";
 
   return titleFooter;
