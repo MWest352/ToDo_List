@@ -1,44 +1,30 @@
-
+//Title section creation
 
 export default
 
-function titleHeader() {
-  const titleHeader = document.createElement('div');
+function titleSection() {
+  const titleSection = document.createElement('div');
  
-  titleHeader.classList.add('title_header');
-  titleHeader.innerHTML = "CHECKMARK";
-  titleHeader.appendChild(runButton());
-  titleHeader.appendChild(titleSubheader());
-  titleHeader.appendChild(titleFooter());
+  titleSection.classList.add('title_section');
+  titleSection.appendChild(titleHeader);
+  titleSection.appendChild(newList);
+  titleSection.appendChild(titleSubheader);
+  titleSection.appendChild(titleFooter);
   
-
-  return titleHeader;
+  return titleSection;
 }
 
+//DIV GENERATOR WITH CLASSNAME AND TEXT
+function createTitle(text, className) {
+  const title = document.createElement('div');
+  title.classList.add(className);
+  title.innerHTML = text;
 
-function titleSubheader() {
-  const titleSubHeader = document.createElement('div');
- 
-  titleSubHeader.classList.add('title_subheader');
-  titleSubHeader.innerHTML = "Welcome to Checkmark, your new personal assistant!";
-
-  return titleSubHeader;
+  return title;
 }
 
-function runButton() {
-  const runbtn = document.createElement('button')
-  runbtn.classList.add('runButton')
-  runbtn.innerHTML = 'Start New Checklist';
-
-  return runbtn;
-}
-
-
-function titleFooter() {
-  const titleFooter = document.createElement('div');
- 
-  titleFooter.classList.add('title_footer');
-  titleFooter.innerHTML = "Footer";
-
-  return titleFooter;
-}
+//DIV CREATION
+const titleHeader = createTitle("Checkmark!", "title_header");
+const titleSubheader = createTitle("Welcome to Checkmark, your new personal assistant!", "title_subheader");
+const newList = createTitle("Start New Checklist!", "title_subheader");
+const titleFooter = createTitle("Footer", "title_footer");

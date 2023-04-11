@@ -1,12 +1,12 @@
 /* FONTS SECTION */
- @font-face {
+ /* @font-face {
   font-family: 'PatuaOne';
   src: url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
   font-weight: 600;
   font-style: normal;
-}
+} */
 
-.title{
+.title_section{
   border: 10px solid red;
   background-color: maroon;
   padding: 2px;
