@@ -1,5 +1,7 @@
 //Title section creation
 
+import createDivWithClass from "./divGenerator"
+
 export default
 
 function titleSection() {
@@ -14,12 +16,10 @@ function titleSection() {
   return titleSection;
 }
 
-//DIV GENERATOR WITH CLASSNAME AND TEXT
+//Title sections with text generator
 function createTitle(text, className) {
-  const title = document.createElement('div');
-  title.classList.add(className);
+  const title = createDivWithClass(className);
   title.innerHTML = text;
-
   return title;
 }
 
