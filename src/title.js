@@ -28,5 +28,5 @@ function createTitle(text, className) {
 const titleHeader = createTitle("", 'title_header');
 const titletext = createTitle("Checkmark!", 'title_text')
 const titleSubheader = createTitle("Welcome to Checkmark, your new personal assistant!", 'title_subheader');
-const newList = createTitle("Start New Checklist!", 'title_subheader');
+const newList = createTitle("Start New Checklist!", 'title_start');
 const titleFooter = createTitle("Footer", 'title_footer');

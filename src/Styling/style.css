@@ -1,8 +1,11 @@
-  body{
-    margin: 0;
-    padding: 0;
-  }
+/* ZERO OUT BODY */
+body{
+  margin: 0;
+  padding: 0;
+}
 
+
+/* FONTS */
 @font-face {
   font-family: Pat;
   src: url('./Fonts/Pat.ttf');
@@ -13,15 +16,17 @@
   src: url('./Fonts/Philosopher-Bold.ttf');
 }
 
+
+/* TITLE PAGE */
+
 .title_section{
   display: flex;
   flex-direction: column;
   height: 100vh;
   border: 10px solid red;
-  background-color: maroon;
+  background-color: whitesmoke;
   padding: 2px;
 }
-
 
 .title_header{
   display: flex;
@@ -48,12 +53,27 @@
   font-size: 5vw;
 }
 
+/* START BUTTON */
+.title_start{
+  /* flex: 1; */
+  border: 6px solid rgb(144, 241, 144);
+  background-color: rgb(198, 240, 198);
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px 2px grey, 10px 10px 5px rgb(144, 241, 144);
+  margin:2px;
+  padding: 10px;
+  text-align: center;
+  min-width: fit-content;
+  height: fit-content;
+  align-self: center;
+}
 .title_subheader{
   flex: 1;
   border: 6px solid darkgreen;
   background-color: rgb(144, 241, 144);
   margin:2px;
   padding:2px;
+  text-align: center;
 }
 
 .title_footer{
