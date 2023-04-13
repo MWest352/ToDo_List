@@ -1,16 +1,24 @@
-/* FONTS SECTION */
- /* @font-face {
-  font-family: 'PatuaOne';
-  src: url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-  font-weight: 600;
-  font-style: normal;
-} */
+*{
+  margin: 0;
+  padding:0;
+}
+
+
+
+@font-face {
+  font-family: Pat;
+  src: url('./Fonts/Pat.ttf');
+}
+
+@font-face {
+  font-family: PBold;
+  src: url('./Fonts/Philosopher-Bold.ttf');
+}
 
 .title_section{
   border: 10px solid red;
   background-color: maroon;
   padding: 2px;
-
 }
 
 
@@ -19,7 +27,9 @@
   background-color: aqua;
   margin: 2px;
   padding: 2px;
-  font-family: 'PatuaOne'
+  font-family: Pat;
+  font-size: 5vw;
+  
 }
 
 .title_subheader{
