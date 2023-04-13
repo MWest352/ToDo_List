@@ -9,7 +9,7 @@ function titleSection() {
  
   titleSection.classList.add('title_section');
   titleSection.appendChild(titleHeader);
-  // titleHeader.appendChild(titleLogo);
+  titleHeader.appendChild(titletext);
   titleSection.appendChild(newList);
   titleSection.appendChild(titleSubheader);
   titleSection.appendChild(titleFooter);
@@ -25,8 +25,8 @@ function createTitle(text, className) {
 }
 
 //DIV CREATION
-const titleHeader = createTitle("Checkmark!", 'title_header');
-// const titleLogo = createTitle("L", 'title_Logo')
+const titleHeader = createTitle("", 'title_header');
+const titletext = createTitle("Checkmark!", 'title_text')
 const titleSubheader = createTitle("Welcome to Checkmark, your new personal assistant!", 'title_subheader');
 const newList = createTitle("Start New Checklist!", 'title_subheader');
 const titleFooter = createTitle("Footer", 'title_footer');
