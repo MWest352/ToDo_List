@@ -1,4 +1,4 @@
-import './style.css';
+import './Styling/style.css';
 import _ from 'date-fns'
 import titleSection from './title';
 
