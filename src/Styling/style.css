@@ -83,3 +83,76 @@ body{
   margin: 2px;
   padding: 2px;
 }
+
+.footer_icons{
+  display: flex;
+  border: 4px solid khaki;
+  background-color: honeydew;
+  margin: 2px;
+  padding: 2px;
+  justify-content: space-evenly;
+}
+.fb_icon{
+  display: flex;
+  border: 4px solid rgb(241, 37, 214);
+  background-color: rgb(236, 176, 223);
+  margin: 2px;
+  padding: 2px;
+  background-image: url(./ImagesAndIcons/Social_Media_Icons/icons8-facebook-65.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 65px;
+  width: 65px;
+}
+
+.dscrd_icon{
+  display: flex;
+  border: 4px solid rgb(241, 37, 214);
+  background-color: rgb(236, 176, 223);
+  margin: 2px;
+  padding: 2px;
+  background-image: url(./ImagesAndIcons/Social_Media_Icons/icons8-discord-65.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 65px;
+  width: 65px;
+}
+
+.gh_icon{
+  display: flex;
+  border: 4px solid rgb(241, 37, 214);
+  background-color: rgb(236, 176, 223);
+  margin: 2px;
+  padding: 2px;
+  background-image: url(./ImagesAndIcons/Social_Media_Icons/icons8-github-65.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 65px;
+  width: 65px;
+}
+
+.in_icon{
+  display: flex;
+  border: 4px solid rgb(241, 37, 214);
+  background-color: rgb(236, 176, 223);
+  margin: 2px;
+  padding: 2px;
+  background-image: url(./ImagesAndIcons/Social_Media_Icons/icons8-linkedin-65.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 65px;
+  width: 65px;
+}
+
+.yt_icon{
+  display: flex;
+  border: 4px solid rgb(241, 37, 214);
+  background-color: rgb(236, 176, 223);
+  margin: 2px;
+  padding: 2px;
+  background-image: url(./ImagesAndIcons/Social_Media_Icons/icons8-youtube-65.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 65px;
+  width: 65px;
+}

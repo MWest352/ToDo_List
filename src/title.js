@@ -13,7 +13,12 @@ function titleSection() {
   titleSection.appendChild(newList);
   titleSection.appendChild(titleSubheader);
   titleSection.appendChild(titleFooter);
-  
+  titleFooter.appendChild(footerIcons);
+  footerIcons.appendChild(fbIcon);
+  footerIcons.appendChild(dscrdIcon);
+  footerIcons.appendChild(ghIcon);
+  footerIcons.appendChild(inIcon);
+  footerIcons.appendChild(ytIcon);
   return titleSection;
 }
 
@@ -29,4 +34,10 @@ const titleHeader = createTitle("", 'title_header');
 const titletext = createTitle("Checkmark!", 'title_text')
 const titleSubheader = createTitle("Welcome to Checkmark, your new personal assistant!", 'title_subheader');
 const newList = createTitle("Start New Checklist!", 'title_start');
-const titleFooter = createTitle("Footer", 'title_footer');
+const titleFooter = createTitle("", 'title_footer');
+const footerIcons = createTitle("", 'footer_icons');
+const fbIcon = createTitle("FB", 'fb_icon');
+const dscrdIcon = createTitle("dscrd", 'dscrd_icon');
+const ghIcon = createTitle("gh", 'gh_icon');
+const inIcon = createTitle("in", 'in_icon');
+const ytIcon = createTitle("YT", 'yt_icon');
