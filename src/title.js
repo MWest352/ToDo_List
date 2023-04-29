@@ -41,3 +41,28 @@ const dscrdIcon = createTitle("", 'dscrd_icon');
 const ghIcon = createTitle("", 'gh_icon');
 const inIcon = createTitle("", 'in_icon');
 const ytIcon = createTitle("", 'yt_icon');
+
+
+//BUTTONS
+
+//ICON BUTTONS
+
+fbIcon.addEventListener("click", function() {
+  window.location.href = "http://www.facebook.com";
+  });
+
+dscrdIcon.addEventListener("click", function() {
+  window.location.href = "http://www.discord.com";
+  });
+
+ghIcon.addEventListener("click", function() {
+  window.location.href = "https://github.com/MWest352";
+  });
+
+inIcon.addEventListener("click", function() {
+  window.location.href = "https://www.linkedin.com/in/matthewsedlack/.com";
+  });
+
+ytIcon.addEventListener("click", function() {
+  window.location.href = "https://www.youtube.com/channel/UC7r-CM07R9PUed1_6QN3a1A";
+  });
