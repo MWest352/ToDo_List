@@ -2,6 +2,7 @@
 body{
   margin: 0;
   padding: 0;
+  background-color: whitesmoke;
 }
 
 
@@ -22,21 +23,19 @@ body{
 .title_section{
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  border: 10px solid red;
-  background-color: whitesmoke;
+  min-height: 100vh;
+  /* border: 10px solid red; */
+  
   padding: 2px;
 }
 
 .title_header{
   display: flex;
   flex: 2;
-  border: 8px solid blue;
-  background-color: aqua;
-  margin-left: 25%;
-  margin-right: 25%;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  /* border: 8px solid blue;
+  background-color: aqua; */
+  
+  margin: 2px 25%;
   padding: 2px;
   align-items: flex-end;
   justify-content: center;
@@ -46,8 +45,9 @@ body{
 }
 
 .title_text{
-  border: 6px solid black;
-  background-color: grey;
+  /* border: 6px solid black;
+  background-color: grey; */
+  
   text-align: center;
   font-family: Pat;
   font-size: 5vw;
@@ -59,18 +59,20 @@ body{
   border: 6px solid rgb(144, 241, 144);
   background-color: rgb(198, 240, 198);
   border-radius: 25px;
-  box-shadow: 5px 5px 10px 2px grey, 10px 10px 5px rgb(144, 241, 144);
-  margin:2px;
+  box-shadow: 5px 5px 5px 2px rgb(201, 243, 201), 10px 10px 5px grey;
+  margin:20px;
   padding: 10px;
   text-align: center;
   min-width: fit-content;
   height: fit-content;
   align-self: center;
+  cursor: pointer;
 }
 .title_subheader{
   /* flex: 1; */
-  border: 6px solid darkgreen;
-  background-color: rgb(144, 241, 144);
+  /* border: 6px solid darkgreen;
+  background-color: rgb(144, 241, 144); */
+  
   margin:2px;
   padding:2px;
   text-align: center;
@@ -78,16 +80,18 @@ body{
 
 .title_footer{
   /* flex: 1; */
-  border: 8px solid blue;
-  background-color: aqua;
+  /* border: 8px solid blue;
+  background-color: aqua; */
+  
   margin: 2px;
   padding: 2px;
 }
 
 .footer_icons{
   display: flex;
-  border: 4px solid khaki;
-  background-color: honeydew;
+  /* border: 4px solid khaki;
+  background-color: honeydew; */
+  
   margin: 2px;
   padding: 2px;
   justify-content: space-evenly;
@@ -95,8 +99,9 @@ body{
 
 .fb_icon{
   display: flex;
-  border: 4px solid rgb(241, 37, 214);
-  background-color: rgb(236, 176, 223);
+  /* border: 4px solid rgb(241, 37, 214);
+  background-color: rgb(236, 176, 223); */
+  
   margin: 2px;
   padding: 2px;
   background-image: url(./ImagesAndIcons/Social_Media_Icons/icons8-facebook-65.png);
@@ -109,8 +114,9 @@ body{
 
 .dscrd_icon{
   display: flex;
-  border: 4px solid rgb(241, 37, 214);
-  background-color: rgb(236, 176, 223);
+  /* border: 4px solid rgb(241, 37, 214);
+  background-color: rgb(236, 176, 223); */
+  
   margin: 2px;
   padding: 2px;
   background-image: url(./ImagesAndIcons/Social_Media_Icons/icons8-discord-65.png);
@@ -123,8 +129,9 @@ body{
 
 .gh_icon{
   display: flex;
-  border: 4px solid rgb(241, 37, 214);
-  background-color: rgb(236, 176, 223);
+  /* border: 4px solid rgb(241, 37, 214);
+  background-color: rgb(236, 176, 223); */
+  
   margin: 2px;
   padding: 2px;
   background-image: url(./ImagesAndIcons/Social_Media_Icons/icons8-github-65.png);
@@ -137,8 +144,9 @@ body{
 
 .in_icon{
   display: flex;
-  border: 4px solid rgb(241, 37, 214);
-  background-color: rgb(236, 176, 223);
+  /* border: 4px solid rgb(241, 37, 214);
+  background-color: rgb(236, 176, 223); */
+  
   margin: 2px;
   padding: 2px;
   background-image: url(./ImagesAndIcons/Social_Media_Icons/icons8-linkedin-65.png);
@@ -151,8 +159,9 @@ body{
 
 .yt_icon{
   display: flex;
-  border: 4px solid rgb(241, 37, 214);
-  background-color: rgb(236, 176, 223);
+  /* border: 4px solid rgb(241, 37, 214);
+  background-color: rgb(236, 176, 223); */
+  
   margin: 2px;
   padding: 2px;
   background-image: url(./ImagesAndIcons/Social_Media_Icons/icons8-youtube-65.png);
