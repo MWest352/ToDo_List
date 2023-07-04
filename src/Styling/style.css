@@ -175,7 +175,7 @@ body{
 
 /* OVERLAY */
 
-.overlay{
+/* .overlay{
   position: fixed;
   top: 0;
   left: 0;
@@ -190,6 +190,142 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: aqua;
+  background-color: rgb(168, 168, 168);
+  padding: 5px;
+  border: 3px solid black;
+}
+
+.form_title_section{
+  background-color: #fff;
+  border: 3px solid black;
+  display:flex;
+  flex-direction: row;
+}
+
+.form_title{
+  border: 2px solid blueviolet;
+  width: 150px;
+  flex: 3;
+  margin-right: 50px;
+  padding-left: 5px;
+}
+
+.close_form{
+  border: 2px solid red;
+  flex: 0.5;
+  text-align: center;
+}
+
+.form_project_section{
+  border: 3px  solid black;
+  margin-top: 5px;
+}
+
+.project_name_label{
+  border: 2px solid blueviolet;
+  margin-right: 10px;
+}
+
+.project_name_input{
+  border: 2px solid red;
+  margin-left: 10px;
+} */
+
+
+.overlay_main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+/* Form Container Styles */
+.form_container {
+  max-width: 400px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Title Section Styles */
+.form_title_section {
   padding: 20px;
+  background-color: #f0f0f0;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.form_title {
+  flex-grow: 1;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.close_form {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 2px;
+  transition: background-color 0.1s ease, box-shadow 0.1s ease;
+}
+.close_form:hover {
+  background-color: #dad8d8;
+}
+
+.close_form:active {
+  background-color: #7e7e7e; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Project Section Styles */
+.form_project_section {
+  padding: 20px;
+}
+
+.project_name_label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.project_name_input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+/* Submit Button Styles */
+.form_submit_button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form_submit_button:hover {
+  background-color: #45a049;
+}
+
+.form_submit_button:active {
+  background-color: #388e3c; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
