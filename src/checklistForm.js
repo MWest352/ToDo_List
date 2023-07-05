@@ -2,7 +2,6 @@
 
 //IMPORT DIV GENERATOR
 import createDivWithClass from "./divGenerator"
-import titleSection from "./title";
 
 export default
 
@@ -31,6 +30,7 @@ function createFormElement(text, className) {
 }
 
 //FORM GENERATION
+
 const formContainer = createFormElement("", 'form_container');
 const formTitleSection = createFormElement("", 'form_title_section')
 const formTitle = createFormElement("New ToDo List", 'form_title')

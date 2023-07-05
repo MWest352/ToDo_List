@@ -1,6 +1,7 @@
 //Title section creation
 
 import createDivWithClass from "./divGenerator"
+import overlay from "./checklistForm"
 
 export default
 
@@ -44,6 +45,12 @@ const ytIcon = createTitle("", 'yt_icon');
 
 
 //BUTTONS
+
+//START NEW CHECKLIST
+newList.addEventListener("click", function(){
+  document.body.appendChild(overlay());;
+  console.log("GF")
+});
 
 //ICON BUTTONS
 
