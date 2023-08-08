@@ -51,14 +51,23 @@ projectNameInput.setAttribute("type", "text");
 projectNameInput.setAttribute("id", "name");
 projectNameInput.setAttribute("placeholder", "Enter Project Name");
 
-//SUBMIT BUTTON
-const formSubmitButton = createFormElement("Submit", 'form_submit_button')
 
+//SUBMIT BUTTON CREATION
+const formSubmitButton = createFormElement("Submit", 'form_submit_button');
 
-//CLOSE BUTTON
-closeButton.addEventListener('click', () => {
+//SUBMIT BUTTON ACTION
+formSubmitButton.addEventListener('click', function() {
+  const projectName = projectNameInput.value
+  console.log('Project Name = ', projectName)
+  removeForm();
+})
+
+//REMOVE FORM
+function removeForm() {
   const overlaySection = document.querySelector('.overlay_main');
   if (overlaySection) {
     overlaySection.remove();
   }
-});
+}
+
+closeButton.addEventListener('click', removeForm);
