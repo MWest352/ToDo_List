@@ -2,6 +2,7 @@
 
 import createDivWithClass from "./divGenerator"
 //import overlay from "./checklistForm"
+import clearTitle from "./checklist"
 
 export default
 
@@ -48,7 +49,7 @@ const ytIcon = createTitle("", 'yt_icon');
 
 //START NEW CHECKLIST
 newList.addEventListener("click", function(){
-  document.body.appendChild(overlay());;
+  clearTitle();
   console.log("GF")
 });
 
